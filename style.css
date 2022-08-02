@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #323437;
+    background-repeat: none;
+    width: 100%;
+}
+
+.container{
+    min-width: 420px;
+    border:3px #e2b514 solid;
+    border-radius: 15px;
+    margin: 20px auto;
+    min-height: 60vh;
+    height: auto;
+}
+
+.todo{
+    background-color: none;
+    border-radius: 10px;
+    margin: 15vh auto auto auto;
+    padding: 20px 20px;
+    /* min-width: 300px; */
+    width: 90%;
+    padding-bottom:1px;
+}
+
+.heading1{
+    min-width: 100%;
+    color: #e2b514;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.heading3{
+    font-size: 30px;
+}
+
+
+
+.editable{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input{
+    padding: 5px;
+    width: 35vw;
+    font-size: 20px;
+    height: 30px;
+    background-color: #e2b514;
+    border: white;
+    outline-width: 0;
+}
+
+.add-btn{
+    padding: 5px;
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #e2b514;
+    margin-left: 5px;
+    border: none;
+}
+
+
+
+
+.list{
+    margin: 10px 0px;
+    padding: 10px 0px;
+    height: 30px;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.title{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #e2b514;
+    font-size: x-large;
+    text-align: center;
+}
+
+.edit{
+    margin-left: auto;
+    width: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #e2b514;
+    background-color: rgb(255, 255, 255, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.inputInTodo{
+    width:fit-content;
+    font-size: 20px;
+    min-width: 65%;
+    margin-left: auto;
+    margin-right: 4px;
+    outline-width: 0;
+    border: none;
+    border-bottom: 1px black solid;
+    color: #e2b514;
+    background-color: rgb(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.save{
+    margin-left: auto;
+    width: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #e2b514;
+    background-color: rgb(255, 255, 255, 0);
+    cursor: pointer;
+    border: none;
+}
+
+.delete{
+    margin-left: 4px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 50px;
+    color: #e2b514;
+    background-color: rgb(255, 255, 255, 0);
+    border: none;
+}
+
+.completed{
+    text-decoration:line-through;
+    color: #646669;
+}
+
+.todos{
+    text-align: center;
+    margin: 30px auto 30px auto;
+    list-style: none;
+    overflow-y: auto;
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        margin: 20px 100px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container{
+        max-width: 60%;
+        margin: 20px auto;
+    }
+}
+
+
+
+
+
